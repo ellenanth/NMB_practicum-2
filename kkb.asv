@@ -1,0 +1,17 @@
+function C = kkb(x,y,F,m,n)
+[M,~] = size(x);
+[N,~] = size(y);
+
+%construct A and B
+A = zeros(M,m);
+B = zeros(N,n);
+for k = 0:m
+    A(0:M;k+1) = x.^k;
+end
+for l = 0:n
+    B(:,l+1) = y.^l;
+end
+
+%calculate C
+C = B\F * pinv(A)';
+end
