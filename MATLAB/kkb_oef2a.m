@@ -1,26 +1,22 @@
-x = linspace(-1,1,31);
-y = linspace(-1,1,31);
+clear;
+x_i = linspace(-1,1,31);
+y_i = linspace(-1,1,31);
+F_i1 = sin( ((2*x_i') - 1).^2 + 2*y_i );
 m = 7;
 n = 7;
+C1 = kkb(x_i,y_i,F_i1,m,n);
 
-F1 = sin( ((2*x') - 1).^2 + 2*y );
-C1 = kkb(x,y',F1,m,n);
-X1 = linspace(-1,1,60);
-Y1 = linspace(-1,1,60);
-Z1 = polyval2(C1,X1,Y1);
-%surf(x,y,F1);
-Xs = [];
-Ys = [];
-Zs = [];
-for k=1:size(x,1);
-    for l=1:size(y,2);
-        Xs = [Xs; x(k)];
-        Ys = [Ys; y(l)];
-        Zs = [Zs; F1(k,l)];
-    end
-end
-scatter3(Xs,Ys,Zs);
-%TODO bolletjes kleiner maken
-surf(X1,Y1,Z1);
-%TODO 1 prentje
-%TODO accentjes opkuisen
+[x_s,y_s] = meshgrid(x_i,y_i);
+
+x_o1 = linspace(-1,1,60);
+y_o1 = linspace(-1,1,60);
+F_o1 = polyval2(C1,x_o1,y_o1);
+
+scatter3(x_s(:),y_s(:),F_i1(:), 10, 'filled','r');
+hold on
+surf(x_o1,y_o1,F_o1);
+%title('grafiektitel')
+xlabel x
+ylabel y
+zlabel z
+set(get(gca,'ZLabel'),'Rotation',0)
