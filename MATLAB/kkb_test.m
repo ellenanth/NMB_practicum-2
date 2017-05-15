@@ -1,6 +1,6 @@
 clear;
-x_i = [1;2;3];
-y_i = [1;2;3];
+x_i = [1 2 3];
+y_i = [1 2 3];
 F_i= [1 2 1;2 3 2;1 2 1];
 m = 3;
 n = 2;
@@ -9,10 +9,10 @@ C = kkb(x_i,y_i,F_i,m,n);
 x_s = [];
 y_s = [];
 F_s = [];
-for i=1:size(x_i,1)
-    for j=1:size(y_i,1)
-        x_s = [x_s; x_i(i)];
-        y_s = [y_s; y_i(j)];
+for i=1:size(x_i,2)
+    for j=1:size(y_i,2)
+        x_s = [x_s; x_i(:,i)];
+        y_s = [y_s; y_i(:,j)];
         F_s = [F_s; F_i(i,j)];
     end
 end

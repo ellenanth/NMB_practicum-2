@@ -1,9 +1,9 @@
-x = linspace(-1,1,31)';
+x = linspace(-1,1,31);
 y = linspace(-1,1,31);
 m = 7;
 n = 7;
 
-F1 = sin( ((2*x) - 1).^2 + 2*y );
+F1 = sin( ((2*x') - 1).^2 + 2*y );
 C1 = kkb(x,y',F1,m,n);
 X1 = linspace(-1,1,60);
 Y1 = linspace(-1,1,60);
