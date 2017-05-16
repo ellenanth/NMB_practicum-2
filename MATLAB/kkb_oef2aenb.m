@@ -1,12 +1,14 @@
 clear;
+%input
 x_i = linspace(-1,1,31);
 F_i1 = sin( ((2*x_i') - 1).^2 + 2*x_i );
 F_i2 = membrane(1,15);
 m = 7;
 n = 7;
+%solve
 C1 = kkb(x_i,x_i,F_i1,m,n);
 C2 = kkb(x_i,x_i,F_i2,m,n);
-
+%create mesh to plot input and output
 [x_s,y_s] = meshgrid(x_i,x_i);
 x_o = linspace(-1,1,60);
 F_o1 = polyval2(C1,x_o,x_o);

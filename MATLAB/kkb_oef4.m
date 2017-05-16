@@ -1,11 +1,12 @@
 clear;
+%input
 x_i1 = linspace(-1,1,30);
 x_i2 = [linspace(-1,-0.20,5) linspace(-0.18,0.18,20) linspace(0.20,1,5)];
 F_i1 = (1 + 25*((x_i1').^2 + x_i1.^2)).^(-1);
 F_i2 = (1 + 25*((x_i2').^2 + x_i2.^2)).^(-1);
 mn_min = 1;
 mn_max = 20;
-
+%solve and calculate error and maximum error
 r1 = [];
 r2 = [];
 r1m = [];
