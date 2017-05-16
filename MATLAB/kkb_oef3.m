@@ -1,10 +1,11 @@
 clear;
+%input
 x_i = linspace(-1,1,31);
 F_i1 = sin( ((2*x_i') - 1).^2 + 2*x_i );
 F_i2 = membrane(1,15);
 mn_min = 1;
 mn_max = 20;
-
+%solve and calculate error
 r1 = [];
 r2 = [];
 for m = mn_min:mn_max
