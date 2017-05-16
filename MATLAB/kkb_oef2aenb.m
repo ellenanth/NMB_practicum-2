@@ -14,7 +14,8 @@ x_o = linspace(-1,1,60);
 F_o1 = polyval2(C1,x_o,x_o);
 F_o2 = polyval2(C2,x_o,x_o);
 
-figure('Name','opgave 2a')
+figure('Name','opgave 2')
+subplot(1,2,1);
 scatter3(x_s(:),y_s(:),F_i1(:), 10, 'filled','r');
 hold on
 surf(x_o,x_o,F_o1);
@@ -24,7 +25,7 @@ ylabel y
 zlabel z
 set(get(gca,'ZLabel'),'Rotation',0)
 
-figure('Name','opgave 2b')
+subplot(1,2,2);
 scatter3(x_s(:),y_s(:),F_i2(:), 10, 'filled','r');
 hold on
 surf(x_o,x_o,F_o2);

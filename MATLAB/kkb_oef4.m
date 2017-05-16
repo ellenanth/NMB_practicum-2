@@ -27,20 +27,21 @@ for m = mn_min:mn_max
     r2m = [r2m max(abs(R2m(:)'))];
 end
 
-figure('Name', 'opgave 4: benaderingsfout')
+figure('Name', 'opgave 4')
+subplot(1,2,1);
 semilogy(mn_min:mn_max, r1,'r.-');
 hold on
 semilogy(mn_min:mn_max, r2,'b.-');
-%title('oef 4  benaderingsfout')
+%title('benaderingsfout')
 legend('equidistant','niet equidistant');
 xlabel 'm,n'
 ylabel benaderingsfout
 
-figure('Name', 'opgave 4: maximale afwijking')
+subplot(1,2,2);
 semilogy(mn_min:mn_max, r1m,'r.-');
 hold on
 semilogy(mn_min:mn_max, r2m,'b.-');
-%title('oef 4 maximale afwijking')
+%title('maximale afwijking')
 legend('equidistant','niet equidistant');
 xlabel 'm,n'
 ylabel 'maximale afwijking'
