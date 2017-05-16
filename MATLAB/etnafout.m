@@ -8,16 +8,17 @@ m = 25;
 C = kkb(x_i, y_i, F_i, m, m);
 F_o = polyval2(C,x_i,y_i);
 
-figure('Name', 'data')
+figure('Name', 'Etna')
+subplot(2,2,1);
 surf(X,Y,F_i,'EdgeColor','none','LineStyle','none','FaceLighting','phong')
 xlim([-1,1]); ylim([-1,1]); zlim([0, 250]); title('Etna');
 
-figure('Name', 'bovenaanzicht')
-imagesc(F_i); title('Etna bonvenaanzicht');
+subplot(2,2,3);
+imagesc(F_i); title('bovenaanzicht');
 
-figure('Name', 'benadering')
+subplot(2,2,2);
 surf(X,Y,F_o,'EdgeColor','none','LineStyle','none','FaceLighting','phong')
 xlim([-1,1]); ylim([-1,1]); zlim([0, 250]); title('benadering Etna');
 
-figure('Name', 'benadering bovenaanzicht')
-imagesc(F_o); title('benadering Etna bovenaanzicht');
+subplot(2,2,4);
+imagesc(F_o); title('benadering bovenaanzicht');
