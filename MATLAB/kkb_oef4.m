@@ -4,7 +4,7 @@ x_i2 = [linspace(-1,-0.20,5) linspace(-0.18,0.18,20) linspace(0.20,1,5)];
 F_i1 = (1 + 25*((x_i1').^2 + x_i1.^2)).^(-1);
 F_i2 = (1 + 25*((x_i2').^2 + x_i2.^2)).^(-1);
 mn_min = 1;
-mn_max = 10;
+mn_max = 20;
 
 r1 = [];
 r2 = [];
@@ -30,10 +30,16 @@ figure('Name', 'opgave 4: benaderingsfout')
 semilogy(mn_min:mn_max, r1,'r.-');
 hold on
 semilogy(mn_min:mn_max, r2,'b.-');
+%title('oef 4  benaderingsfout')
 legend('equidistant','niet equidistant');
+xlabel 'm,n'
+ylabel benaderingsfout
 
 figure('Name', 'opgave 4: maximale afwijking')
 semilogy(mn_min:mn_max, r1m,'r.-');
 hold on
 semilogy(mn_min:mn_max, r2m,'b.-');
+%title('oef 4 maximale afwijking')
 legend('equidistant','niet equidistant');
+xlabel 'm,n'
+ylabel 'maximale afwijking'

@@ -22,4 +22,7 @@ figure('Name', 'opgave 3')
 semilogy(mn_min:mn_max, r1,'r.-');
 hold on
 semilogy(mn_min:mn_max, r2,'b.-');
+%title('oef 3')
 legend('f(x,y) = sin((2x-1)^2+2y)','F = membrane(1,15)')
+xlabel 'm,n'
+ylabel benaderingsfout

@@ -16,7 +16,7 @@ figure('Name','opgave 2a')
 scatter3(x_s(:),y_s(:),F_i1(:), 10, 'filled','r');
 hold on
 surf(x_o,x_o,F_o1);
-%title('grafiektitel')
+%title('oef 2a')
 xlabel x
 ylabel y
 zlabel z
@@ -26,7 +26,7 @@ figure('Name','opgave 2b')
 scatter3(x_s(:),y_s(:),F_i2(:), 10, 'filled','r');
 hold on
 surf(x_o,x_o,F_o2);
-%title('grafiektitel')
+%title('oef 2b')
 xlabel x
 ylabel y
 zlabel z
