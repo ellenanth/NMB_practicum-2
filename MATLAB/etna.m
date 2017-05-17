@@ -21,4 +21,4 @@ surf(X,Y,F_o,'EdgeColor','none','LineStyle','none','FaceLighting','phong')
 xlim([-1,1]); ylim([-1,1]); zlim([0, 250]); title('benadering Etna');
 
 subplot(2,2,4);
-imagesc(F_o); title('benadering bovenaanzicht');
+imagesc(F_o); title('bovenaanzicht benadering');
