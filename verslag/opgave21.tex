@@ -1,2 +1,16 @@
-plaats code hier\\
-Om de correctheid van de implementatie te testen hebben we de functie sin(x) benaderd op het interval [-2,2] met equidistante punten. Hierbij gebruikten we 4 abscissen en 11 evaluatiepunten. Door dit zowel op papier als in matlab uit te rekenen kunnen stap per stap de waarden voor A, b, S, $c_1$, $c_2$ en y gecontroleerd worden.
+In de functie naturalspline stellen we een natuurlijke kubische splinefunctie op op basis van een stel gegeven punten [x,f]. Hierbij evalueren we dit resultaat voor de gegeven waarden t. Dit gebeurt in verschillende stappen:
+\begin{enumerate}
+\item Stel een stelsel op met de tridiagonale co\"effici\"entenmatrix (5.19) en het rechterlid (5.20) uit het handboek.
+\item Los dit stelsel op om de tweede afgeleiden in elke abscis te bepalen.
+\item Bepaal de onbekende constanten $c_{1i}$ en $c_{2i}$ voor elke i met de formules (5.14) en (5.15) uit het handboek.
+\item Met al deze gegevens y bepalen aan de hand van formule (5.13) uit het handboek.
+\end{enumerate}
+Het kan voorvallen dat de waarde van t buiten het interval van de gegeven abscissen ligt. Dit is niet ideaal, maar als dit voorvalt geven we y de functiewaarde die hoort bij de abscis op de rand. Ook als t juist op een abscis ligt, kunnen we rekenwerk besparen en geven we y de functiewaarde uit de gegeven punten.
+\\
+Om de correctheid van de implementatie te testen hebben we de functie sin(x) benaderd op het interval [-2,2] met equidistante punten. Hierbij gebruikten we 4 equidistante abscissen en 11 evaluatiepunten. Door dit zowel op papier als in matlab uit te rekenen kunnen stap per stap de waarden voor A, b, S, $c_1$, $c_2$ en y gecontroleerd worden.
+\\
+\lstinputlisting[
+  style      = Matlab-editor,
+  basicstyle = \mlttfamily,
+]{naturalspline.m}
+
