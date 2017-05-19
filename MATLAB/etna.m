@@ -19,6 +19,8 @@ imagesc(F_i); title('bovenaanzicht');
 subplot(2,2,2);
 surf(X,Y,F_o,'EdgeColor','none','LineStyle','none','FaceLighting','phong')
 xlim([-1,1]); ylim([-1,1]); zlim([0, 250]); title('benadering Etna');
+caxis([0 250]);
 
 subplot(2,2,4);
 imagesc(F_o); title('bovenaanzicht benadering');
+caxis([0 250]);

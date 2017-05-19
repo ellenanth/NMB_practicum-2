@@ -1,4 +1,4 @@
-Onderstaande funtie berekent de co\"effici\"entenmatrix $C \in \mathbb{R}^({n+1) \times (m+1)}$, gegeven de vectoren $x \in \mathbb{R}^{M}$ en $y \in \mathbb{R}^{N}$ als 2D meetpunten, de matrix $F \in \mathbb{R}^{N \times M}$ met functie- of meetwaarden en de parameters $m,n \in \mathbb{N}$ die respectievelijk de graad in $x$ en $y$ van de benaderende veeltermen.
+Onderstaande funtie berekent de co\"effici\"entenmatrix $C \in \mathbb{R}^{(n+1) \times (m+1)}$, gegeven de vectoren $x \in \mathbb{R}^{M}$ en $y \in \mathbb{R}^{N}$ als 2D meetpunten, de matrix $F \in \mathbb{R}^{N \times M}$ met functie- of meetwaarden en de parameters $m,n \in \mathbb{N}$ die de graad in $x$ en $y$ respectievelijk van de benaderende veelterm voorstelt.
 \lstinputlisting[
   style      = Matlab-editor,
   basicstyle = \mlttfamily,
@@ -8,11 +8,11 @@ Er werd een kleine test op deze functie uitgevoerd. Hierbij is de input: $x = \b
 $$F = \begin{bmatrix}1&2&1\\
 2&3&2\\
 1&2&1\end{bmatrix}.$$
-De punten werden samen geplot met het benaderend oppervlak in figuur \ref{fig:oef11}.
+De punten werden samen geplot met het benaderend oppervlak in figuur~\ref{fig:oef11}.
 
-\begin{figure}[htb]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{oef11.png}
-    \caption{test van het kkb algoritme}
+    \includegraphics[width=0.4\textwidth]{oef11.png}
+    \caption{veeltermbenadering van $F$ van graad $3$ in $x$ en graad $2$ in y}
     \label{fig:oef11}
 \end{figure}
