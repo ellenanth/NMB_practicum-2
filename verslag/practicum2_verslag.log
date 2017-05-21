@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.2)  19 MAY 2017 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.2)  21 MAY 2017 14:05
 entering extended mode
 **./practicum2_verslag.tex
 (practicum2_verslag.tex
@@ -531,12 +531,12 @@ File: afbeeldingen/oef14.png Graphic file (type png)
 Package pdftex.def Info: afbeeldingen/oef14.png used on input line 15.
 (pdftex.def)             Requested size: 276.00105pt x 131.53094pt.
 ) (opgave15.tex
-<afbeeldingen/oef15.png, id=32, 1028.34187pt x 490.08093pt>
+<afbeeldingen/oef15.png, id=32, 673.01437pt x 483.30562pt>
 File: afbeeldingen/oef15.png Graphic file (type png)
 
 <use afbeeldingen/oef15.png>
 Package pdftex.def Info: afbeeldingen/oef15.png used on input line 5.
-(pdftex.def)             Requested size: 276.00105pt x 131.53094pt.
+(pdftex.def)             Requested size: 276.00105pt x 198.20084pt.
 ) (opgave21.tex [4 <./afbeeldingen/oef14.png (PNG copy)> <./afbeeldingen/oef15.
 png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 8--15
@@ -571,21 +571,22 @@ File: afbeeldingen/rat_equi_res.jpg Graphic file (type jpg)
 <use afbeeldingen/rat_equi_res.jpg>
 Package pdftex.def Info: afbeeldingen/rat_equi_res.jpg used on input line 32.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
-) (opgave23.tex
-<afbeeldingen/sin_cheb.jpg, id=46, 702.625pt x 526.96875pt>
+) (opgave23.tex [7 <./afbeeldingen/sin_equi.jpg> <./afbeeldingen/sin_equi_res.j
+pg>]
+<afbeeldingen/sin_cheb.jpg, id=51, 702.625pt x 526.96875pt>
 File: afbeeldingen/sin_cheb.jpg Graphic file (type jpg)
 
 <use afbeeldingen/sin_cheb.jpg>
 Package pdftex.def Info: afbeeldingen/sin_cheb.jpg used on input line 11.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
 
-<afbeeldingen/sin_cheb_res.jpg, id=47, 702.625pt x 526.96875pt>
+<afbeeldingen/sin_cheb_res.jpg, id=52, 702.625pt x 526.96875pt>
 File: afbeeldingen/sin_cheb_res.jpg Graphic file (type jpg)
 
 <use afbeeldingen/sin_cheb_res.jpg>
 Package pdftex.def Info: afbeeldingen/sin_cheb_res.jpg used on input line 16.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
- [7 <./afbeeldingen/sin_equi.jpg> <./afbeeldingen/sin_equi_res.jpg>]
+
 <afbeeldingen/rat_cheb.jpg, id=53, 702.625pt x 526.96875pt>
 File: afbeeldingen/rat_cheb.jpg Graphic file (type jpg)
 
@@ -621,15 +622,15 @@ File: afbeeldingen/lalinea_result.jpg Graphic file (type jpg)
 Package pdftex.def Info: afbeeldingen/lalinea_result.jpg used on input line 23.
 
 (pdftex.def)             Requested size: 241.49895pt x 181.12093pt.
-) [8 <./afbeeldingen/rat_equi.jpg> <./afbeeldingen/rat_equi_res.jpg> <./afbeeld
-ingen/sin_cheb.jpg> <./afbeeldingen/sin_cheb_res.jpg>] [9 <./afbeeldingen/rat_c
-heb.jpg> <./afbeeldingen/rat_cheb_res.jpg> <./afbeeldingen/delta_result.jpg> <.
-/afbeeldingen/phi_result.jpg>] [10 <./afbeeldingen/lalinea_result.jpg>] (practi
+ [8 <./afbeeldingen/rat_equi.jpg> <./afbeeldingen/rat_equi_res.jpg> <./afbeeldi
+ngen/sin_cheb.jpg> <./afbeeldingen/sin_cheb_res.jpg>] [9 <./afbeeldingen/rat_ch
+eb.jpg> <./afbeeldingen/rat_cheb_res.jpg> <./afbeeldingen/delta_result.jpg> <./
+afbeeldingen/phi_result.jpg>]) [10 <./afbeeldingen/lalinea_result.jpg>] (practi
 cum2_verslag.aux) ) 
 Here is how much of TeX's memory you used:
  7937 strings out of 493328
  115678 string characters out of 3139122
- 427650 words of memory out of 3000000
+ 406650 words of memory out of 3000000
  11277 multiletter control sequences out of 15000+200000
  18749 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -652,7 +653,7 @@ msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on practicum2_verslag.pdf (10 pages, 1351818 bytes).
+Output written on practicum2_verslag.pdf (10 pages, 1324055 bytes).
 PDF statistics:
  289 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
