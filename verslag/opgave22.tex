@@ -1,10 +1,10 @@
-We gebruiken bovenstaande code om $sin(x)$ en $\frac{1}{1+7x^2}$ te benaderen op het interval [-2,2] met een equidistante set van 10 abscissen voor $sin(x)$ en 9 abscissen voor de tweede functie. We vergelijken dit ook met een veelterminterpolant door deze punten. Het eerste resultaat is te vinden in figuur \ref{fig:sinequi}, het tweede resultaat in figuur \ref{fig:ratequi}. We geven steeds een plot van de functiewaarden en van het residu weer.
-\\
-De functie $\frac{1}{1+7x^2}$ is een klassiek voorbeeld van een functie die slecht te banderen is met een interpolerende veelterm door equidistante punten. Dit is duidelijk te zien in de plot van het residu. De splinevoorstelling presteert hier een stuk beter. 
-\\
-TODO verdere uitleg over verschil veelterm vs. spline bij sin??
+We gebruiken bovenstaande code om $sin(x)$ en $\frac{1}{1+7x^2}$ te benaderen op het interval [-2,2] met een equidistante set van 10 abscissen voor $sin(x)$ en 9 abscissen voor de tweede functie. We vergelijken dit ook met een veelterminterpolant door deze punten. Voor deze veelterm gebruiken we de graad N-1, met N het aantal abscissen. Het eerste resultaat is te vinden in figuur \ref{fig:sinequi}, het tweede resultaat in figuur \ref{fig:ratequi}. We geven steeds een plot van de functiewaarden en van de absolute waarde van het residu weer. In de abscissen gaat de fout tot op machineprecisie. Dit is niet zichtbaar in de figuur aangezien de figuur getekend wordt op basis van een aantal evaluatiepunten.
 
-\begin{figure}
+Voor de sinusfunctie presteert de veeltermbenadering beter. Dit is te verklaren doordat de veeltermbenadering de afgebroken reeksontwikkeling van de sinus vormt.
+
+De functie $\frac{1}{1+7x^2}$ is een klassiek voorbeeld van een functie die slecht te banderen is met een interpolerende veelterm door equidistante punten. Dit is duidelijk te zien in de plot. De splinevoorstelling presteert hier een stuk beter.
+
+\begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
@@ -20,7 +20,7 @@ TODO verdere uitleg over verschil veelterm vs. spline bij sin??
 \label{fig:sinequi}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering

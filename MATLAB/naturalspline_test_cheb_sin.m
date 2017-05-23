@@ -6,7 +6,7 @@ for i=0:N-1
 end
 x_l = x(1,1);
 x_r = x(1,N);
-t = linspace(x_l,x_r,100);
+t = linspace(x_l,x_r,998);
 
 f = sin(x);
 y0 = sin(t);
@@ -25,10 +25,10 @@ title('sin(x), chebyshev-punten');
 legend('sin(x)', 'met splinefuncties', 'veelterminterpolatie')
 
 figure();
-plot(t,zeros(1,100), 'b');
+% plot(t,zeros(1,100), 'b');
+% hold on;
+semilogy(t,abs(r1), 'r');
 hold on;
-plot(t,r1, 'r');
-hold on;
-plot(t,r2, 'g');
+semilogy(t,abs(r2), 'g');
 title('residu, chebyshev-punten');
-legend('sin(x)', 'met splinefuncties', 'veelterminterpolatie')
+legend('met splinefuncties', 'veelterminterpolatie')

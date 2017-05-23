@@ -2,7 +2,7 @@ N = 10;
 x_l = -2;
 x_r = 2;
 x = linspace(x_l,x_r,N);
-t = linspace(x_l,x_r,100);
+t = linspace(x_l,x_r,998);
 
 f = sin(x);
 y0 = sin(t);
@@ -21,10 +21,10 @@ title('sin(x), equidistante abscissen');
 legend('sin(x)', 'met splinefuncties', 'veelterminterpolatie')
 
 figure();
-plot(t,zeros(1,100), 'b');
+% semilogy(t,zeros(1,100), 'b');
+% hold on;
+semilogy(t,abs(r1), 'r');
 hold on;
-plot(t,r1, 'r');
-hold on;
-plot(t,r2, 'g');
+semilogy(t,abs(r2), 'g');
 title('residu, equidistante abscissen');
-legend('sin(x)', 'met splinefuncties', 'veelterminterpolatie')
+legend('met splinefuncties', 'veelterminterpolatie')

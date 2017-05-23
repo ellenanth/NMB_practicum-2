@@ -1,10 +1,10 @@
-Nu doen we hetzelfde, maar in plaats van equidistante abscissen gebruiken we nu Chebyshev-punten. Het  resultaat voor $sin(x)$ is te vinden in figuur \ref{fig:sincheb}, het resultaat voor $\frac{1}{1+7x^2}$ in figuur \ref{fig:ratcheb}. We geven ook hier steeds een plot van de functiewaarden en van het residu weer.
-\\
-Het gebruik van Chebyshev-punten is een duidelijke verbetering, vooral aan de rand van het interval. 
-\\
-TODO verdere uitleg over verschil veelterm vs. spline
+Nu doen we hetzelfde, maar in plaats van equidistante abscissen gebruiken we nu Chebyshev-punten. Het  resultaat voor $sin(x)$ is te vinden in figuur \ref{fig:sincheb}, het resultaat voor $\frac{1}{1+7x^2}$ in figuur \ref{fig:ratcheb}. We geven ook hier steeds een plot van de functiewaarden en van de absolute waarde van het residu weer.
 
-\begin{figure}
+Voor de sinus is er een kleine verbetering ten opzichte van een equidistante verdeling. Voor de andere functie geeft het gebruik van Chebyshev-punten een duidelijke verbetering, vooral aan de rand van het interval. 
+
+Voor de sinus blijft de veelterm een betere benadering dan de splinevoorstelling om dezelfde reden als hierboven vermeld. Voor $\frac{1}{1+7x^2}$ is de veelterm nog steeds een slechtere benadering dan de splinevoorstelling, maar is het verschil tussen beide aan de rand wel kleiner.
+
+\begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
@@ -20,7 +20,7 @@ TODO verdere uitleg over verschil veelterm vs. spline
 \label{fig:sincheb}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering

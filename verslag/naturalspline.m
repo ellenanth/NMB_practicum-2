@@ -1,7 +1,7 @@
 function y = naturalspline(x,f,t)
 % construct and evaluate a natural cubic spline
-% x: abscissen, row vector of length n+1                x_i in x(1,i+1)
-% f: functiewaarden, row vector of length n+1           f_i in f(1,i+1)
+% x: abscissen, row vector of length n+1, x_i in x(1,i+1)
+% f: functiewaarden, row vector of length n+1, f_i in f(1,i+1)
 % t: evaluatiepunten, row vector of length N
 % y: functiewaarden in de evaluatiepunten, row vector of length N
 n = size(x,2)-1;
@@ -12,13 +12,15 @@ main_diag = zeros(1,n-1);
 side_diag = zeros(1,n-1);
 b = zeros(1,n-1);
 for i=1:n-1
-    main_diag(1,i) = 2*(x(1,i+2)-x(1,i)); % 2 * (x_i+1 - x_i-1)
-    side_diag(1,i) = x(1,i+2)-x(1,i+1); % x_i+1 - x_i
-    b(1,i) = (f(1,i+2)-f(1,i+1))  /   (x(1,i+2)-x(1,i+1)) ... %f_i+1 - f_i / x_i+1 - x_i
-            - (f(1,i+1)-f(1,i))   /   (x(1,i+1)-x(1,i));      %f_i - f_i-1 / x_i - x_i-1
+    main_diag(1,i) = 2*(x(1,i+2)-x(1,i));
+    side_diag(1,i) = x(1,i+2)-x(1,i+1);
+    b(1,i) = (f(1,i+2)-f(1,i+1))  /   (x(1,i+2)-x(1,i+1)) ... 
+            - (f(1,i+1)-f(1,i))   /   (x(1,i+1)-x(1,i));
 end
 b = 6.*b;
-A = diag(main_diag, 0) + diag(side_diag(1:n-2), -1) + diag(side_diag(1:n-2), 1);
+A = diag(main_diag, 0) + ...
+    diag(side_diag(1:n-2), -1) + ...
+    diag(side_diag(1:n-2), 1);
 %stelsel oplossen, S is een kolomvector met s"(x_1) tem s"(x_n-1)
 S = A\(b');
 

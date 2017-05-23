@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.2)  21 MAY 2017 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.2)  23 MAY 2017 20:36
 entering extended mode
 **./practicum2_verslag.tex
 (practicum2_verslag.tex
@@ -494,7 +494,7 @@ File: afbeeldingen/oef11.png Graphic file (type png)
 
 <use afbeeldingen/oef11.png>
 Package pdftex.def Info: afbeeldingen/oef11.png used on input line 15.
-(pdftex.def)             Requested size: 137.9979pt x 103.4957pt.
+(pdftex.def)             Requested size: 172.5pt x 129.3733pt.
 ) (opgave12.tex
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 2.
 
@@ -506,7 +506,7 @@ File: afbeeldingen/oef12.png Graphic file (type png)
 
 <use afbeeldingen/oef12.png>
 Package pdftex.def Info: afbeeldingen/oef12.png used on input line 6.
-(pdftex.def)             Requested size: 276.00105pt x 131.53094pt.
+(pdftex.def)             Requested size: 345.0pt x 164.4193pt.
 ) (opgave13.tex [2 <./afbeeldingen/oef11.png (PNG copy)> <./afbeeldingen/oef12.
 png (PNG copy)>]
 <afbeeldingen/oef13.png, id=25, 512.66531pt x 483.30562pt>
@@ -514,148 +514,146 @@ File: afbeeldingen/oef13.png Graphic file (type png)
 
 <use afbeeldingen/oef13.png>
 Package pdftex.def Info: afbeeldingen/oef13.png used on input line 5.
-(pdftex.def)             Requested size: 137.9979pt x 130.09602pt.
+(pdftex.def)             Requested size: 172.5pt x 162.6182pt.
 ) (opgave14.tex
 <afbeeldingen/oef1410.png, id=26, 1028.34187pt x 490.08093pt>
 File: afbeeldingen/oef1410.png Graphic file (type png)
 
 <use afbeeldingen/oef1410.png>
 Package pdftex.def Info: afbeeldingen/oef1410.png used on input line 6.
-(pdftex.def)             Requested size: 276.00105pt x 131.53094pt.
- [3 <./afbeeldingen/oef13.png (PNG copy)> <./afbeeldingen/oef1410.png (PNG copy
-)>]
+(pdftex.def)             Requested size: 345.0pt x 164.4193pt.
+ [3 <./afbeeldingen/oef13.png (PNG copy)>]
 <afbeeldingen/oef14.png, id=31, 1028.34187pt x 490.08093pt>
 File: afbeeldingen/oef14.png Graphic file (type png)
 
 <use afbeeldingen/oef14.png>
 Package pdftex.def Info: afbeeldingen/oef14.png used on input line 15.
-(pdftex.def)             Requested size: 276.00105pt x 131.53094pt.
-) (opgave15.tex
-<afbeeldingen/oef15.png, id=32, 673.01437pt x 483.30562pt>
+(pdftex.def)             Requested size: 345.0pt x 164.4193pt.
+) (opgave15.tex [4 <./afbeeldingen/oef1410.png (PNG copy)> <./afbeeldingen/oef1
+4.png (PNG copy)>]
+<afbeeldingen/oef15.png, id=35, 673.01437pt x 483.30562pt>
 File: afbeeldingen/oef15.png Graphic file (type png)
 
 <use afbeeldingen/oef15.png>
 Package pdftex.def Info: afbeeldingen/oef15.png used on input line 5.
-(pdftex.def)             Requested size: 276.00105pt x 198.20084pt.
-) (opgave21.tex [4 <./afbeeldingen/oef14.png (PNG copy)> <./afbeeldingen/oef15.
-png (PNG copy)>]
+(pdftex.def)             Requested size: 345.0pt x 247.75104pt.
+) (opgave21.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--15
 
  []
 
-(naturalspline.m [5] [6])) (opgave22.tex
-<afbeeldingen/sin_equi.jpg, id=42, 702.625pt x 526.96875pt>
+[5 <./afbeeldingen/oef15.png (PNG copy)>] (naturalspline.m [6])) (opgave22.tex
+[7] <afbeeldingen/sin_equi.jpg, id=46, 702.625pt x 526.96875pt>
 File: afbeeldingen/sin_equi.jpg Graphic file (type jpg)
 
 <use afbeeldingen/sin_equi.jpg>
 Package pdftex.def Info: afbeeldingen/sin_equi.jpg used on input line 11.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
 
-<afbeeldingen/sin_equi_res.jpg, id=43, 702.625pt x 526.96875pt>
+<afbeeldingen/sin_equi_res.jpg, id=47, 562.1pt x 421.575pt>
 File: afbeeldingen/sin_equi_res.jpg Graphic file (type jpg)
 
 <use afbeeldingen/sin_equi_res.jpg>
 Package pdftex.def Info: afbeeldingen/sin_equi_res.jpg used on input line 16.
-(pdftex.def)             Requested size: 172.5pt x 129.3698pt.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 
-<afbeeldingen/rat_equi.jpg, id=44, 702.625pt x 526.96875pt>
+<afbeeldingen/rat_equi.jpg, id=48, 702.625pt x 526.96875pt>
 File: afbeeldingen/rat_equi.jpg Graphic file (type jpg)
 
 <use afbeeldingen/rat_equi.jpg>
 Package pdftex.def Info: afbeeldingen/rat_equi.jpg used on input line 27.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
 
-<afbeeldingen/rat_equi_res.jpg, id=45, 702.625pt x 526.96875pt>
+<afbeeldingen/rat_equi_res.jpg, id=49, 562.1pt x 421.575pt>
 File: afbeeldingen/rat_equi_res.jpg Graphic file (type jpg)
 
 <use afbeeldingen/rat_equi_res.jpg>
 Package pdftex.def Info: afbeeldingen/rat_equi_res.jpg used on input line 32.
-(pdftex.def)             Requested size: 172.5pt x 129.3698pt.
-) (opgave23.tex [7 <./afbeeldingen/sin_equi.jpg> <./afbeeldingen/sin_equi_res.j
-pg>]
-<afbeeldingen/sin_cheb.jpg, id=51, 702.625pt x 526.96875pt>
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+) (opgave23.tex [8 <./afbeeldingen/sin_equi.jpg> <./afbeeldingen/sin_equi_res.j
+pg> <./afbeeldingen/rat_equi.jpg> <./afbeeldingen/rat_equi_res.jpg>]
+<afbeeldingen/sin_cheb.jpg, id=54, 702.625pt x 526.96875pt>
 File: afbeeldingen/sin_cheb.jpg Graphic file (type jpg)
 
 <use afbeeldingen/sin_cheb.jpg>
 Package pdftex.def Info: afbeeldingen/sin_cheb.jpg used on input line 11.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
 
-<afbeeldingen/sin_cheb_res.jpg, id=52, 702.625pt x 526.96875pt>
+<afbeeldingen/sin_cheb_res.jpg, id=55, 562.1pt x 421.575pt>
 File: afbeeldingen/sin_cheb_res.jpg Graphic file (type jpg)
 
 <use afbeeldingen/sin_cheb_res.jpg>
 Package pdftex.def Info: afbeeldingen/sin_cheb_res.jpg used on input line 16.
-(pdftex.def)             Requested size: 172.5pt x 129.3698pt.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 
-<afbeeldingen/rat_cheb.jpg, id=53, 702.625pt x 526.96875pt>
+<afbeeldingen/rat_cheb.jpg, id=56, 702.625pt x 526.96875pt>
 File: afbeeldingen/rat_cheb.jpg Graphic file (type jpg)
 
 <use afbeeldingen/rat_cheb.jpg>
 Package pdftex.def Info: afbeeldingen/rat_cheb.jpg used on input line 27.
 (pdftex.def)             Requested size: 172.5pt x 129.3698pt.
 
-<afbeeldingen/rat_cheb_res.jpg, id=54, 702.625pt x 526.96875pt>
+<afbeeldingen/rat_cheb_res.jpg, id=57, 562.1pt x 421.575pt>
 File: afbeeldingen/rat_cheb_res.jpg Graphic file (type jpg)
 
 <use afbeeldingen/rat_cheb_res.jpg>
 Package pdftex.def Info: afbeeldingen/rat_cheb_res.jpg used on input line 32.
-(pdftex.def)             Requested size: 172.5pt x 129.3698pt.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 ) (opgave24.tex
-<afbeeldingen/delta_result.jpg, id=55, 360.34625pt x 526.96875pt>
+<afbeeldingen/delta_result.jpg, id=58, 360.34625pt x 526.96875pt>
 File: afbeeldingen/delta_result.jpg Graphic file (type jpg)
 
 <use afbeeldingen/delta_result.jpg>
 Package pdftex.def Info: afbeeldingen/delta_result.jpg used on input line 7.
 (pdftex.def)             Requested size: 68.99895pt x 100.89702pt.
 
-<afbeeldingen/phi_result.jpg, id=56, 304.13625pt x 526.96875pt>
+<afbeeldingen/phi_result.jpg, id=59, 304.13625pt x 526.96875pt>
 File: afbeeldingen/phi_result.jpg Graphic file (type jpg)
 
 <use afbeeldingen/phi_result.jpg>
 Package pdftex.def Info: afbeeldingen/phi_result.jpg used on input line 12.
 (pdftex.def)             Requested size: 68.99895pt x 119.55188pt.
-
-<afbeeldingen/lalinea_result.jpg, id=57, 702.625pt x 526.96875pt>
+ [9 <./afbeeldingen/sin_cheb.jpg> <./afbeeldingen/sin_cheb_res.jpg> <./afbeeldi
+ngen/rat_cheb.jpg> <./afbeeldingen/rat_cheb_res.jpg>] <afbeeldingen/lalinea_res
+ult.jpg, id=63, 702.625pt x 526.96875pt>
 File: afbeeldingen/lalinea_result.jpg Graphic file (type jpg)
 
 <use afbeeldingen/lalinea_result.jpg>
 Package pdftex.def Info: afbeeldingen/lalinea_result.jpg used on input line 23.
 
 (pdftex.def)             Requested size: 241.49895pt x 181.12093pt.
- [8 <./afbeeldingen/rat_equi.jpg> <./afbeeldingen/rat_equi_res.jpg> <./afbeeldi
-ngen/sin_cheb.jpg> <./afbeeldingen/sin_cheb_res.jpg>] [9 <./afbeeldingen/rat_ch
-eb.jpg> <./afbeeldingen/rat_cheb_res.jpg> <./afbeeldingen/delta_result.jpg> <./
-afbeeldingen/phi_result.jpg>]) [10 <./afbeeldingen/lalinea_result.jpg>] (practi
-cum2_verslag.aux) ) 
+) [10 <./afbeeldingen/delta_result.jpg> <./afbeeldingen/phi_result.jpg> <./afbe
+eldingen/lalinea_result.jpg>]
+(practicum2_verslag.aux) ) 
 Here is how much of TeX's memory you used:
  7937 strings out of 493328
  115678 string characters out of 3139122
- 406650 words of memory out of 3000000
+ 408651 words of memory out of 3000000
  11277 multiletter control sequences out of 15000+200000
  18749 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,57p,946b,1604s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Marthe\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecrm0900.pk> <C:\Users\Marthe\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/base/8r.enc} <C:\Users\Marthe\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecrm1000.pk> <C:\Users\Marthe\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Marthe\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Marthe\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Marth
-e\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on practicum2_verslag.pdf (10 pages, 1324055 bytes).
+ 42i,8n,57p,1070b,1604s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Marthe\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\Marthe\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fo
+nts/enc/dvips/base/8r.enc} <C:\Users\Marthe\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Marthe\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Marthe\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Marthe\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\User
+s\Marthe\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.p
+k><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on practicum2_verslag.pdf (10 pages, 1289471 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
+ 288 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

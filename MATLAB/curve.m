@@ -1,3 +1,4 @@
+clear;
 [x,y] = click;
 n = size(x,2);
 t = zeros(1,n);
